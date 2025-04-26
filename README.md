@@ -25,12 +25,15 @@ This project automates desktop applications on Windows using tools like Appium a
    git clone <repository-url>
 
 2. Navigate to the project directory:
+    ```sh
     cd Windows-Desktop-Automation
 
 3. Build the project using Maven:
+    ```sh
     mvn clean install
 
 4. Run the tests using TestNG:
+    ```sh
     mvn test
 
 Test Reports
