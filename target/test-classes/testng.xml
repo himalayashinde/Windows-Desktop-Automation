@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VS Code Extension Test Suite">
+    <test name="Simple Extension Test">
+        <classes>
+            <class name="com.vscodetest.e2e.SimpleExtensionTest" />
+        </classes>
+    </test>
+</suite>

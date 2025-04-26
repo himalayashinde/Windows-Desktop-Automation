@@ -1,0 +1,404 @@
+2025-04-26 16:26:24.139 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Program Files\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}}]
+Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}
+2025-04-26 16:39:56.135 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Program Files\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}}]
+Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}
+2025-04-26 16:45:03.317 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Program Files\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}}]
+Capabilities {app: C:\Program Files\Microsoft ..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}
+2025-04-26 17:09:44.533 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:09:45.149 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:09:45.182 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:09:45.183 [main] INFO  com.vscodetest.base.BaseTest - Using VS Code path: C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe
+2025-04-26 17:09:45.202 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver at: http://127.0.0.1:4723
+2025-04-26 17:09:49.800 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}}]
+Capabilities {app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}}]
+Capabilities {app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, deviceName: WindowsPC, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:54) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-04-26 17:14:34.243 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:14:34.276 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:14:34.300 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:14:34.301 [main] INFO  com.vscodetest.base.BaseTest - Using VS Code path: C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe
+2025-04-26 17:14:34.318 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver at: http://127.0.0.1:4723
+2025-04-26 17:14:36.493 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {appium:app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, appium:deviceName: WindowsPC, platformName: windows}}]
+Capabilities {appium:app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, appium:deviceName: WindowsPC, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe, appium:automationName=Windows, appium:deviceName=WindowsPC, platformName=windows}], desiredCapabilities=Capabilities {appium:app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, appium:deviceName: WindowsPC, platformName: windows}}]
+Capabilities {appium:app: C:\Users\ADMIN\AppData\Loca..., appium:automationName: Windows, appium:deviceName: WindowsPC, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:62) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-04-26 17:16:03.886 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:16:03.896 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:16:03.934 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:16:03.963 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver for desktop session at: http://127.0.0.1:4723
+2025-04-26 17:16:06.031 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:50) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-04-26 17:18:24.801 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:18:24.808 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:18:24.835 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:18:24.854 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver for desktop session at: http://127.0.0.1:4723
+2025-04-26 17:18:29.044 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:50) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-04-26 17:21:35.757 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:21:35.792 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:21:35.825 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:21:35.826 [main] INFO  com.vscodetest.base.BaseTest - Please launch VS Code manually from: C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\Code.exe
+2025-04-26 17:21:35.826 [main] INFO  com.vscodetest.base.BaseTest - Waiting 10 seconds for VS Code to start...
+2025-04-26 17:21:45.932 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver at: http://127.0.0.1:4723
+2025-04-26 17:21:58.119 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Root, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Root, appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Root, appium:automationName: Windows, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:58) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-04-26 17:28:16.116 [main] INFO  com.vscodetest.config.Configuration - Configuration loaded successfully
+2025-04-26 17:28:16.152 [main] INFO  com.vscodetest.base.BaseTest - Configuration initialized at class level
+2025-04-26 17:28:16.177 [main] INFO  com.vscodetest.utils.LogUtils - ========== Starting Test: SimpleExtensionTest ==========
+2025-04-26 17:28:16.177 [main] INFO  com.vscodetest.base.BaseTest - Trying to connect to Calculator to verify WinAppDriver...
+2025-04-26 17:28:16.192 [main] INFO  com.vscodetest.base.BaseTest - Connecting to WinAppDriver at: http://127.0.0.1:4723
+2025-04-26 17:28:19.059 [main] ERROR com.vscodetest.base.BaseTest - Failed to initialize the driver: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Microsoft.WindowsCalculator..., appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Microsoft.WindowsCalculator..., appium:automationName: Windows, platformName: windows}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Bad capabilities. Specify either app or appTopLevelWindow to create a session 
+Host info: host: 'HIMALAYA-LAPTOP', ip: '172.23.240.1'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Command: [null, newSession {capabilities=[{appium:app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, appium:automationName=Windows, platformName=windows}], desiredCapabilities=Capabilities {app: Microsoft.WindowsCalculator..., appium:automationName: Windows, platformName: windows}}]
+Capabilities {app: Microsoft.WindowsCalculator..., appium:automationName: Windows, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140) ~[selenium-remote-driver-4.11.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159) ~[selenium-remote-driver-4.11.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.windows.WindowsDriver.<init>(WindowsDriver.java:50) ~[java-client-8.5.1.jar:?]
+	at com.vscodetest.base.BaseTest.setUp(BaseTest.java:51) ~[classes/:?]
+	at com.vscodetest.e2e.SimpleExtensionTest.setUp(SimpleExtensionTest.java:15) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
